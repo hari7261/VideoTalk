@@ -1,28 +1,33 @@
-body {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-    url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+/* body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+    url(https://raw.githubusercontent.com/hari7261/VideoTalk/main/painting-mountain-lake-with-mountain-background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% auto; /* Ensure the image fits the width */
-  background-position: center top; /* Focus on the top portion of the image */
-  width: 100%;
-  height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
 
-/* Mobile-Specific Styles */
-@media (max-width: 768px) {
-  body {
-    background-size: 100% auto; /* Fit the image horizontally on mobile */
-    background-attachment: scroll; /* Avoid fixed backgrounds on mobile for performance */
-    background-position: center top; /* Keep the focus on the top */
-  }
+* {
+  margin: 0;
+  padding: 0;
 }
 
-/* Tablet-Specific Styles */
-@media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    background-size: 100% auto; /* Keep the image horizontal fitting */
-    background-position: center top; /* Align the image properly */
-  }
+ */
+
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)),
+url("https://github.com/hari7261/VideoTalk/blob/main/painting-mountain-lake-with-mountain-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
 }
