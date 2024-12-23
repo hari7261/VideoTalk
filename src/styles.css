@@ -1,37 +1,13 @@
-/* body {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)), "https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center center;
-  width: 100%;
-  height: 100vh;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-@media (max-width: 768px) {
-  body {
-    background-size: contain;
-  }
-}  
- */
-
 
 
 body {
-  background:
-    linear-gradient(rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)), "https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center center;
+  background-position: top center; /* Ensure the background is positioned at the top and centered */
   width: 100%;
   height: 100vh;
 }
