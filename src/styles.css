@@ -1,38 +1,28 @@
-
-
 body {
   background: 
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
     url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
+  background-size: 100% auto; /* Ensure the image fits the width */
+  background-position: center top; /* Focus on the top portion of the image */
   width: 100%;
   height: 100vh;
-}
-* {
-  margin: 0;
-  padding: 0;
 }
 
 /* Mobile-Specific Styles */
 @media (max-width: 768px) {
   body {
-    background-size: contain; /* Ensure the image fits within smaller screens */
-    background-attachment: scroll; /* Avoid performance issues on mobile */
-    background-position: center top; /* Adjust the image to prioritize the top portion */
+    background-size: 100% auto; /* Fit the image horizontally on mobile */
+    background-attachment: scroll; /* Avoid fixed backgrounds on mobile for performance */
+    background-position: center top; /* Keep the focus on the top */
   }
 }
 
-/* Tablet-Specific Styles (Optional) */
+/* Tablet-Specific Styles */
 @media (min-width: 768px) and (max-width: 1024px) {
   body {
-    background-size: cover; /* For tablets, keep it as cover */
-    background-position: center; /* Center the image */
+    background-size: 100% auto; /* Keep the image horizontal fitting */
+    background-position: center top; /* Align the image properly */
   }
 }
-
-
-
-
