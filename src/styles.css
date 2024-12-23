@@ -2,7 +2,7 @@ body {
   background:
     linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3)),
-    url(https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    url (https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
