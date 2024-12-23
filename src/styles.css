@@ -1,44 +1,48 @@
-/* Reset Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Body Styles */
-body {
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-    url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+/* body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), "https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
   width: 100%;
   height: 100vh;
-  font-family: Arial, sans-serif; /* Add a clean font for better readability */
-  color: white; /* Ensure text is visible over the dark background */
-  display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
 }
 
-/* Mobile Responsive Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 @media (max-width: 768px) {
   body {
     background-size: contain;
-    background-attachment: scroll; /* Improve performance on mobile */
   }
+}  
+ */
+
+
+
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)), "https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1";
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100vh;
 }
 
-/* Optional: Fallback background color */
-body::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #000;
-  z-index: -1; /* Place behind the content */
+* {
+  margin: 0;
+  padding: 0;
 }
+
+@media (max-width: 768px) {
+  body {
+    background-size: contain;
+  }
+}  
